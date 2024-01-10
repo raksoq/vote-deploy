@@ -14,7 +14,7 @@ spec:
         app: vote-ui
     spec:
       containers:
-      - image: oskarq/vote:latest
+      - image: oskarq/vote:28
         name: vote-ui
         ports:
         - containerPort: 80
